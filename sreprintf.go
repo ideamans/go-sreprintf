@@ -249,4 +249,3 @@ func applyValues(translation string, values []interface{}) (string, error) {
 	result := fmt.Sprintf(translation, values...)
 	return result, nil
 }
-
